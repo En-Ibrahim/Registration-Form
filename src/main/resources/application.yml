@@ -1,12 +1,14 @@
-spring:
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    platform: postgres
-    url: jdbc:postgresql://localhost:5432/exam-db
-    database: exam-db
-    password: admin       #password
-    username: postgres
+server:
+  servlet:
+    context-path: /api
+  port: 8083
 
+# swagger-ui custom path
+springdoc:
+  swagger-ui:
+    path: /api-doc
+
+spring:
   jpa:
     hibernate:
       ddl-auto: update
@@ -18,13 +20,10 @@ spring:
         lob:
           non_contextual_creation: true
 
-server:
-  servlet:
-    context-path: /api
-  port: 8083
-
-
-# swagger-ui custom path
-springdoc:
-  swagger-ui:
-    path: /api-doc
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    platform: postgres
+    url: jdbc:postgresql://localhost:5433/form-db
+    database: form-db
+    password: password
+    username: postgres
