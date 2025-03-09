@@ -5,8 +5,11 @@ This registration form was developed to screen participants for a competition or
 I was responsible for developing the backend, designing the database structure, implementing service logic and exception handling to ensure a smooth user experience. The project was built using the Spring framework, incorporating Spring Data, Spring MVC, and RESTful APIs for efficient data processing and management.
 
 ## Technologies Used:
-#### Backend: Spring Boot, Spring MVC, Spring Data JPA, RESTful API
-#### Database: MySQL
-#### Features: Exception handling, service layer control
+#### Backend: 
+    Spring Boot, Spring MVC, Spring Data JPA, RESTful API
+#### Database: 
+    MySQL
+#### Features: 
+    Exception handling, service layer control
 
 You can see the site here: https://userform-homepage.herokuapp.com/home
